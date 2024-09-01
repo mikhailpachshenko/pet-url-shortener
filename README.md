@@ -14,12 +14,7 @@
 - `vektra/mockery` – инструмент для автоматической генерации мок-объектов в Go
 
 ------
-
 ### TODO:
-
-- [ ] 
-- [ ] 
-
 ------
 
 ## #0 Подготовительный процесс
@@ -31,22 +26,22 @@
 - Структура проекта:
 
   ```markdown
-  ├── cmd
-  │   └── url-shortener
-  ├── internal
-  │		├── http-server
-  │		│		├── handlers
-  │		│		│		├── redirect
-  │		│		│		│		└── mocks
-  │		│		│		└──	url
-  │		│		│				└── save
-  │		│		│						└── mocks
-  │		│		└── middleware
-  │		│				└── logger
-  │   ├── lib
-  │   │   ├── api
-  │   │   │   └── response
-  │   │   ├── random
+  ├──cmd
+  │   └──url-shortener
+  ├──internal
+  │   ├──http-server
+  │   │   ├──handlers
+  │   │   │   ├──redirect
+  │   │   │   │  └──mocks
+  │   │   │   └──url
+  │   │   │      └──save
+  │   │   │         └──mocks
+  │   │   └──middleware
+  │   │       └── logger
+  │   ├──lib
+  │   │   ├──api
+  │   │   │   └──response
+  │   │   ├──random
   │   │   └── logger
   │   │       └── slogdiscard
   │   └── storage
